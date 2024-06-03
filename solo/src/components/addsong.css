@@ -1,0 +1,30 @@
+.addsong{
+    margin-top: 25px;
+    width: 40%;
+    max-width:600px;
+    min-width:200px;
+    height:40px;
+    padding:0 10px;
+    border:1px solid #ccc;
+    border-radius:20px;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.2s ease-in-out;&:focus{
+        border-color: #1a73e8;
+    }
+}
+.addsongs{
+   
+    width: 40%;
+    max-width:600px;
+    min-width:200px;
+    height:40px;
+    padding:0 10px;
+    border:1px solid #ccc;
+    border-radius:20px;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.2s ease-in-out;&:focus{
+        border-color: #1a73e8;
+    } 
+}

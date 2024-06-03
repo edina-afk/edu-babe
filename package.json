@@ -1,0 +1,13 @@
+{
+  "name": "edu-baby",
+  "version": "4.3.0",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix backend\" \"npm start --prefix solo\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
