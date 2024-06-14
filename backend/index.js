@@ -16,7 +16,7 @@ const port = process.env.PORT || 5031;
 app.use("/api/songs", songs);
 
 app.get("/", (req, res) => {
-  res.send("welcome to the todos api...");
+  res.send("welcome to the songs api...");
 });
 app.listen(port, () => {
   console.log(`Server running on port: ${port}...`);
